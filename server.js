@@ -2,7 +2,7 @@ console.log("Executing");
 require("dotenv").config();
 const axios = require("axios").default;
 
-const RECEIVERS = ["+917004892472"];
+const RECEIVERS = ["your mobile number eg: +911234567890"];
 
 const sendTextMessage = require("./twilio");
 const sendMessage = require("./send_message");
